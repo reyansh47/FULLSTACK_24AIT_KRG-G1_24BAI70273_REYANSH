@@ -1,0 +1,154 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+header {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.hero {
+    background: #7c3aed;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.hero-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+input {
+    width: 250px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+    background: #007bff;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.job-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.job-card {
+    background: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+.card-header {
+    margin-bottom: 10px;
+}
+
+.job-card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+
+
+.job-details {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.job-details dt {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.job-details dd {
+    display: inline-block;
+    margin: 0;
+}
+
+.job-card button {
+    width: 100%;
+    margin-top: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+.job-card button:hover {
+    text-decoration: underline;
+    background: #218838;
+}
